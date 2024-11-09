@@ -1,4 +1,4 @@
-# Task-tracker App (WIP)
+# To-do App (WIP)
 
 This is a simple To-Do application built using `customtkinter` for the GUI and `sqlite3` for the database. The application allows users to add, view, edit, and delete tasks.
 
