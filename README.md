@@ -1,13 +1,59 @@
-# Task-tracker (WIP)
+# Task-tracker App
 
-A simple task tracker with an sql backend.
+This is a simple To-Do application built using `customtkinter` for the GUI and `sqlite3` for the database. The application allows users to add, view, edit, and delete tasks.
 
-![Screenshot 2024-11-09 135720](https://github.com/user-attachments/assets/56b7d2e5-78fc-4210-9ab3-81eac8ae4c1e)
-![Screenshot 2024-11-09 140533](https://github.com/user-attachments/assets/32979bad-dab1-46ab-89bf-f4fdf4b42169)
+## Features
+
+- Add new tasks with a title, due date, description, and priority.
+- View all tasks in a scrollable frame.
+- Edit existing tasks.
+- Delete tasks.
+- Mark tasks as completed.
+- More features to come.
 
 
-# To do
-* Add a "completed" button
-* Edit sql databse to set completed=yes
-* Validate inputs when adding a new task
-* Make the main task window auto refresh when a new task is added (currently need to be refreshed manually).
+- `backend.py`: Contains the `Database` class for interacting with the SQLite database.
+- `to_do_app.py`: Contains the `App` and `Add_new_task` classes for the GUI.
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
+  
+2. Install the required packages:
+   ```sh
+   pip install customtkinter
+
+Usage
+1. Run the application:
+   ```sh
+   python to_do_app.py
+
+3. Use the menu to add, edit, or delete tasks.
+
+### Code Overview
+`backend.py`
+  - `Database`: A class to handle database operations such as adding, viewing, searching, and deleting tasks.
+
+`to_do_app.py`
+  - `App`: The main application class that initializes the GUI and handles user interactions.
+  -  `Add_new_task`: A class for the window that allows users to add or edit tasks.
+  - `ScrollableLabelButtonFrame`: A custom scrollable frame to display task buttons.
+
+### Screenshots
+![Screenshot 2024-11-09 135720](https://github.com/user-attachments/assets/309e29db-4098-4509-aebb-d0b2fe8aaf31)
+
+![Screenshot 2024-11-09 140533](https://github.com/user-attachments/assets/437ff3ef-ebb5-4857-980b-3891cb9ad81e)
+
+### Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+### License
+This project is licensed under the MIT License.
+
+
+
+
+
