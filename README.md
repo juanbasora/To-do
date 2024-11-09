@@ -11,10 +11,6 @@ This is a simple To-Do application built using `customtkinter` for the GUI and `
 - Mark tasks as completed.
 - More features to come.
 
-
-- `backend.py`: Contains the `Database` class for interacting with the SQLite database.
-- `to_do_app.py`: Contains the `App` and `Add_new_task` classes for the GUI.
-
 ## Installation
 
 1. Clone the repository:
