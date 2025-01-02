@@ -15,8 +15,8 @@ This is a simple To-Do application built using `customtkinter` for the GUI and `
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/todo-app.git
-   cd todo-app
+   git clone https://github.com/yourusername/To-do.git
+   cd To-do
   
 2. Install the required packages:
    ```sh
